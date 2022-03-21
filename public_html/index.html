@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html lang="en">
+    <head>
+        <title>Arknights Items</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles/index-style.css" rel="stylesheet" type="text/css"/>
+        <script src="scripts/scripts.js"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        </style>
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+    </head>
+    <body onload="getData();">
+        <div id="container">
+            <header>
+                <h1>
+                    ARKNIGHTS ITEMS
+                </h1>
+                <nav>
+                    <ul id="menu">
+                        <li class="menu-icon" id="menu-search">
+                            <img src="img/icons/search-white.png" height="25"
+                                 width="25" alt="search" 
+                                 onclick="showForm('search');"/>
+                            
+                            <form id="search">
+                                <fieldset id="show-all">
+                                    <button type="button"
+                                            onclick="displayData(dropsByItem);">
+                                        Show All
+                                    </button>
+                                </fieldset>
+
+                                <fieldset id="search-item">
+                                    <label for="by-item">Search by Item</label>
+                                    <input type="text" id="by-item" 
+                                           name="by-item"/>
+                                    
+                                    <button type="button" onclick="searchByItem(
+                                        document.getElementById('by-item').value, 
+                                        dropsByItem);">
+                                        Submit
+                                    </button>
+                                </fieldset>
+
+                                <fieldset id="search-stage">
+                                    <label for="by-stage">Search by Stage</label>
+                                    <input type="text" id="by-stage" name="by-stage"/>
+                                    
+                                    <button type="button" onclick="searchByStage(
+                                        document.getElementById('by-stage').value,
+                                        dropsByItem);">
+                                        Submit
+                                    </button>
+                                </fieldset>
+
+                                <fieldset id="filter-tier">
+                                    <label for="sel-tier">Rarity</label>
+                                    <div>
+                                        <select id="sel-tier" name="sel-tier">
+                                            <option value="0">1*</option>
+                                            <option value="1">2*</option>
+                                            <option value="2">3*</option>
+                                            <option value="3">4*</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <button type="button" onclick="filterRarity(
+                                        document.getElementById('sel-tier').value,
+                                        dropsByItem);">
+                                        Submit
+                                    </button>
+                                </fieldset>
+                            </form>
+                        </li>
+                        
+                        <li class="menu-icon" id="menu-add">
+                            <img src="img/icons/plus-white.png" height="25"
+                                 width="25" alt="add"
+                                 onclick="showForm('add');"/>
+                            
+                            <form id="add">
+                                <fieldset id="add-item">
+                                    <label for="add-name">Item Name</label>
+                                    <input type="text" id="add-name" name="add-name"/>
+                                    
+                                    <button type="button" onclick="addItem(
+                                        document.getElementById('add-name').value,
+                                        dropsByItem);">
+                                        Submit
+                                    </button>
+                                </fieldset>
+
+                                <fieldset id="add-stage">
+                                    <label for="sel-item">Select Item</label>
+                                    <select id="sel-item" name="sel-item">
+                                        <!-- Options added in displayData() -->
+                                    </select>
+
+                                    <label for="add-stage-name">Stage Name</label>
+                                    <input type="text" id="add-stage-name" name="add-stage-name"/>
+
+                                    <label for="add-drop">Drop Rate</label>
+                                    <input type="text" id="add-drop" name="add-drop"/>
+                                    
+                                    <label for="add-drop">Sanity per Drop</label>
+                                    <input type="text" id="add-sanity" name="add-drop"/>
+                                    
+                                    <button type="button" onclick="addStage(
+                                        document.getElementById('sel-item').value,
+                                        document.getElementById('add-stage-name').value,
+                                        document.getElementById('add-drop').value,
+                                        document.getElementById('add-sanity').value,
+                                        dropsByItem);">
+                                        Submit
+                                    </button>
+                                </fieldset>
+                            </form>
+                        </li>
+                        
+                        <li class="menu-icon" id="menu-del">
+                            <img src="img/icons/bin-white.png" height="25" 
+                                 width="25" alt="delete"
+                                 onclick="showForm('del');"/>
+                            
+                            <form id="del">
+                                <fieldset>
+                                    <label for="del-id">Delete Item</label>
+                                    <select id="del-id" name="del-id" 
+                                            onchange="displayStageOption(
+                                                document.getElementById('del-id').value,
+                                                dropsByItem);"/>
+                                        <!-- Options added in displayData() -->
+                                    </select>
+
+                                    <button type="button" onclick="deleteItem(
+                                        document.getElementById('del-id').value,
+                                        dropsByItem);">
+                                        Submit
+                                    </button>
+                                </fieldset>
+                                
+                                <fieldset>
+                                    <label for="del-stage">Delete Stage</label>
+                                    <div>
+                                        <select id="del-stage" name="del-stage">
+                                            <!-- Options added in 
+                                            displayStageOption() -->
+                                        </select>
+                                    </div>
+
+                                    <button type="button" onclick="deleteStage(
+                                        document.getElementById('del-id').value,
+                                        document.getElementById('del-stage').value,
+                                        dropsByItem);">
+                                        Submit
+                                    </button>
+                                </fieldset>
+                            </form>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <main>
+                <div id="display-cards">
+                    <!-- Added by displayData() -->
+                </div>
+            </main>
+            
+            <footer>
+                <span>Web Development CA3</span>
+                <span>Méabh Gibeny</span>
+            </footer>
+        </div>
+    </body>
+</html>

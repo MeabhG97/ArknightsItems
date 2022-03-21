@@ -1,0 +1,1795 @@
+{
+    "items":
+            [{
+                    "itemId": "30011",
+                    "name": "Orirock",
+                    "description": "Rich in organics, it is commonly seen in regions where Originium has completely volatilized. Compared to Originium, it is easier to exploit.",
+                    "rarity": 0,
+                    "iconId": "MTL_SL_G1",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100015,
+                    "usage": "A rock mined from the ground. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act16d5_03",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act10d5_02",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act11d0_03",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act9d0_01",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act12d0_01",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act13d0_02",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act13d5_02",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act15d0_03",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act15d5_02",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act4d0_02",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "a001_01",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act17d0_02",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act17d0_01",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act18d0_02",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act18d0_01",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act18d3_03",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act18d3_02",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act18d3_01",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act17d0_03",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "sub_02-05",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "main_00-09",
+                            "occPer": "ALWAYS"
+                        }],
+                    "buildingProductList": []
+                }, {
+                    "itemId": "30012",
+                    "name": "Orirock Cube",
+                    "description": "With numerous micropores, it is often used in the interlayer of armors as an adsorbent of the breakdown product of Originium gas.",
+                    "rarity": 1,
+                    "iconId": "MTL_SL_G2",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100014,
+                    "usage": "A rock cube mined from the ground. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act18d0_04",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act9d0_04",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act12d0_04",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act13d5_05",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act15d0_04",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act16d5_06",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act16d5_04",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act17d0_06",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act17d0_04",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act6d5_03",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act18d3_06",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act18d3_04",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act11d0_04",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "sub_06-1-2",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "main_07-14",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_05-10",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "sub_02-12",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "main_01-07",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "sub_05-1-1",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "sub_03-3-2",
+                            "occPer": "USUAL"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "34"
+                        }]
+                }, {
+                    "itemId": "30013",
+                    "name": "Orirock Cluster",
+                    "description": "Compressed from Orirock Cubes, it can be formed naturally. It is a fragile material, but industrial technology has made it possible to produce complete Orirock Clusters now. People often mistake it for an ordinary cluster of rocks.",
+                    "rarity": 2,
+                    "iconId": "MTL_SL_G3",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100013,
+                    "usage": "A conglomerate rock mined from the ground. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act7mini_04",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act18d3_07",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act16d5_10",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act12d0_06",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_02-04",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_04-06",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_05-01",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_06-05",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_07-01",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_07-05",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_08-03",
+                            "occPer": "OFTEN"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "35"
+                        }]
+                }, {
+                    "itemId": "30014",
+                    "name": "Orirock Concentration",
+                    "description": "This Orirock looks different from the raw material after the refinement process. It costs much more than other processing methods. Anyone who has seen the smooth cutting surface will be amazed. That must be the charm of combining nature with industry.",
+                    "rarity": 3,
+                    "iconId": "MTL_SL_G4",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100012,
+                    "usage": "A refined matter produced with Orirock Cluster. Can be used for a variety of upgrades and the synthesis of Polymerization Preparation.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "main_04-06",
+                            "occPer": "SOMETIMES"
+                        }, {
+                            "stageId": "main_07-01",
+                            "occPer": "SOMETIMES"
+                        }, {
+                            "stageId": "main_08-03",
+                            "occPer": "SOMETIMES"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "36"
+                        }]
+                }, {
+                    "itemId": "30021",
+                    "name": "Sugar Substitute",
+                    "description": "It's slightly sweet and possibly edible. It is also commonly used in chemical manufacturing.",
+                    "rarity": 0,
+                    "iconId": "MTL_SL_STRG1",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100027,
+                    "usage": "Cheap sugar substitute produced by assembly line. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act15d5_03",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act10d5_01",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act11d0_01",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act9d0_01",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act12d0_03",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act13d0_03",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act13d5_01",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act15d0_01",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act4d0_01",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "a001_02",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act17d0_02",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act17d0_01",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act18d0_02",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act18d0_01",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act18d3_02",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act18d3_01",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act16d5_01",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "sub_02-06",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "main_00-07",
+                            "occPer": "ALWAYS"
+                        }],
+                    "buildingProductList": []
+                }, {
+                    "itemId": "30022",
+                    "name": "Sugar",
+                    "description": "A more expensive sugar made from natural materials. Ahh, this taste... will surely put one in a great mood. However, it's not for casual snacking.",
+                    "rarity": 1,
+                    "iconId": "MTL_SL_STRG2",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100026,
+                    "usage": "A small amount of sugar produced by assembly line. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act18d3_05",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act9d0_05",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act13d5_04",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act16d5_07",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act17d0_05",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act17d0_03",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act18d0_05",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act18d0_03",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act6d5_04",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "a001_03",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act7mini_02",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act18d3_03",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "main_08-05",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "main_07-05",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_07-02",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "main_05-03",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_02-02",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "sub_05-2-2",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "sub_03-1-1",
+                            "occPer": "ALWAYS"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "31"
+                        }]
+                }, {
+                    "itemId": "30023",
+                    "name": "Sugar Pack",
+                    "description": "A calorie-rich sugar pack that's highly sought after. Its weight never seems to meet the standards set for chemical manufacturing. The production line employees may have something to do with it.",
+                    "rarity": 2,
+                    "iconId": "MTL_SL_STRG3",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100025,
+                    "usage": "A decent amount of sugar produced by assembly line. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act15d0_06",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act12d0_07",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act9d0_06",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_02-05",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_04-02",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_05-02",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_06-03",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_07-10",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_08-12",
+                            "occPer": "USUAL"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "32"
+                        }]
+                }, {
+                    "itemId": "30024",
+                    "name": "Sugar Lump",
+                    "description": "A nice, finely processed sugar lump commonly used for potion production. Do not taste test it! This is not food and is not to be sold as food! EVER!",
+                    "rarity": 3,
+                    "iconId": "MTL_SL_STRG4",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100024,
+                    "usage": "A large amount of sugar produced by assembly line. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "main_04-02",
+                            "occPer": "SOMETIMES"
+                        }, {
+                            "stageId": "main_05-02",
+                            "occPer": "SOMETIMES"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "33"
+                        }]
+                }, {
+                    "itemId": "30031",
+                    "name": "Ester",
+                    "description": "One of the most important materials in modern industry. Its appearance has lead to the development of many modern products. This one, of course, is only a raw material that has practical application.",
+                    "rarity": 0,
+                    "iconId": "MTL_SL_RUSH1",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100023,
+                    "usage": "Ester used in industrial production. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act18d3_01",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act18d3_02",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act18d0_01",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act18d0_02",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act17d0_01",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act17d0_02",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act16d5_02",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act15d0_02",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act13d5_03",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act12d0_02",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act9d0_02",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act11d0_02",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act6d5_01",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "a001_01",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "main_00-11",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "sub_02-07",
+                            "occPer": "ALWAYS"
+                        }],
+                    "buildingProductList": []
+                }, {
+                    "itemId": "30032",
+                    "name": "Polyester",
+                    "description": "Although its is lacking in potency, it can still be used to produce some basic materials we need. It is also a common ingredient in some sustained-release drugs.",
+                    "rarity": 1,
+                    "iconId": "MTL_SL_RUSH2",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100022,
+                    "usage": "A small amount of polyester used in industrial production. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act18d3_05",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act17d0_05",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act16d5_04",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act15d5_04",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act15d0_04",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act13d0_04",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act12d0_04",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act11d0_04",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act7d5_03",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "a001_04",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_01-08",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "main_06-05",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_06-08",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "main_08-04",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "sub_03-1-2",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "sub_05-2-1",
+                            "occPer": "ALWAYS"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "28"
+                        }]
+                }, {
+                    "itemId": "30033",
+                    "name": "Polyester Pack",
+                    "description": "After a series of processes, it meets the standards and general needs of most products on the market. It can also be used to process some special materials.",
+                    "rarity": 2,
+                    "iconId": "MTL_SL_RUSH3",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100021,
+                    "usage": "A pack of polyester used in industrial production. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act18d0_06",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act16d5_09",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act15d5_07",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act13d5_07",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act10d5_05",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act4d0_05",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_02-06",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_03-08",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_05-03",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_06-04",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_07-03",
+                            "occPer": "USUAL"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "29"
+                        }]
+                }, {
+                    "itemId": "30034",
+                    "name": "Polyester Lump",
+                    "description": "A refined material. As a product, it is mostly sold to organizations and research institutions that have extremely high raw material needs. It may become the basis of the next generation of materials.",
+                    "rarity": 3,
+                    "iconId": "MTL_SL_RUSH4",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100020,
+                    "usage": "A lump of polyester used in industrial production. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "main_03-08",
+                            "occPer": "SOMETIMES"
+                        }, {
+                            "stageId": "main_06-04",
+                            "occPer": "SOMETIMES"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "30"
+                        }]
+                }, {
+                    "itemId": "30041",
+                    "name": "Oriron Shard",
+                    "description": "A byproduct of massive metal processing. Its high plasticity and oxidation resistance make it a common material of smelting and phased processing.",
+                    "rarity": 0,
+                    "iconId": "MTL_SL_IRON1",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100031,
+                    "usage": "A common industrial material. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act18d3_01",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act18d3_02",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act18d0_01",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act18d0_02",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act17d0_01",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act17d0_02",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act16d5_03",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act15d0_03",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act13d5_01",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act12d0_01",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act9d0_03",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act11d0_03",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act6d5_02",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "main_01-03",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "sub_02-08",
+                            "occPer": "ALWAYS"
+                        }],
+                    "buildingProductList": []
+                }, {
+                    "itemId": "30042",
+                    "name": "Oriron",
+                    "description": "In a small number of inerting processes, Oriron Shards may have phase changed and polymerized into Oriron. It is generally thought that Oriron is relatively stable when it reaches this level.",
+                    "rarity": 1,
+                    "iconId": "MTL_SL_IRON2",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100030,
+                    "usage": "A rare industrial material. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act18d3_06",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act18d0_04",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act16d5_07",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act13d5_05",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act12d0_05",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act9d0_04",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act10d5_04",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act7d5_04",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act4d0_04",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "a001_03",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "main_02-01",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_05-07",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_06-01",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "main_07-09",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "main_08-12",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "sub_03-2-1",
+                            "occPer": "ALWAYS"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "25"
+                        }]
+                }, {
+                    "itemId": "30043",
+                    "name": "Oriron Cluster",
+                    "description": "During the processing, influenced by very few unartificial factors, multiple Orirons may merge into this form by chance. Its hardness has decreased but its purity has increased.",
+                    "rarity": 2,
+                    "iconId": "MTL_SL_IRON3",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100029,
+                    "usage": "A precious industrial material. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act15d0_08",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act13d0_08",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act9d0_08",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act10d5_06",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_02-08",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_05-05",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_06-09",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_07-16",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "sub_04-1-1",
+                            "occPer": "OFTEN"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "26"
+                        }]
+                }, {
+                    "itemId": "30044",
+                    "name": "Oriron Block",
+                    "description": "An Oriron block fused with multiple Oriron Clusters under extremely harsh conditions. As the most stable and rarest form of Oriron, it can be used in all manners of industrial production.",
+                    "rarity": 3,
+                    "iconId": "MTL_SL_IRON4",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100028,
+                    "usage": "An expensive industrial material. Can be used for a variety of upgrades and the synthesis of Polymerization Preparation.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "main_05-05",
+                            "occPer": "SOMETIMES"
+                        }, {
+                            "stageId": "sub_04-1-1",
+                            "occPer": "SOMETIMES"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "27"
+                        }]
+                }, {
+                    "itemId": "30051",
+                    "name": "Diketon",
+                    "description": "A very small amount of Diketon. After reprocessing, Engineer Operators use solidification during chemical combination to bond other stable structures.",
+                    "rarity": 0,
+                    "iconId": "MTL_SL_KETONE1",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100035,
+                    "usage": "A very small amount of industrial organic compound. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act18d3_01",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act18d3_02",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act18d0_01",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act18d0_02",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act17d0_01",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act17d0_02",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act16d5_02",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act16d5_06",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act15d0_02",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act12d0_03",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act9d0_03",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act11d0_02",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act7d5_02",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "main_01-06",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "sub_02-09",
+                            "occPer": "ALWAYS"
+                        }],
+                    "buildingProductList": []
+                }, {
+                    "itemId": "30052",
+                    "name": "Polyketon",
+                    "description": "A small amount of Polyketon preparation produced through a special process. Its closed molecular structure has changed much complicated processing into simple chemical reactions. Of course, certain technical support is still needed.",
+                    "rarity": 1,
+                    "iconId": "MTL_SL_KETONE2",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100034,
+                    "usage": "A small amount of industrial organic compound. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act18d3_04",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act10d5_03",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act11d0_05",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act13d5_03",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act15d0_05",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act16d5_05",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act17d0_04",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act18d0_03",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "a001_04",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act4d0_03",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "sub_07-1-2",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "sub_06-2-1",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "main_08-08",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_07-16",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_07-10",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_06-14",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_03-07",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "sub_02-01",
+                            "occPer": "USUAL"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "22"
+                        }]
+                }, {
+                    "itemId": "30053",
+                    "name": "Aketon",
+                    "description": "A modest amount of Aketon preparation produced through further dehydrocarbon processing. The preparation reacts with the non-oxygen molecules in the air, so Engineer Operators must be careful during processing to avoid waste.",
+                    "rarity": 2,
+                    "iconId": "MTL_SL_KETONE3",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100033,
+                    "usage": "A modest amount of industrial organic compound. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act18d0_07",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act15d0_07",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act13d0_07",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act11d0_07",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act6d5_06",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_03-01",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_04-05",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_05-08",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_06-07",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_07-12",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_08-17",
+                            "occPer": "OFTEN"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "23"
+                        }]
+                }, {
+                    "itemId": "30054",
+                    "name": "Keton Colloid",
+                    "description": "A large amount of unstable Keton preparation. As one of the advanced industrial materials, it is closely monitored by our Engineer Operators. Please be careful when handling.",
+                    "rarity": 3,
+                    "iconId": "MTL_SL_KETONE4",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100032,
+                    "usage": "A large amount of industrial organic compound. Can be used for a variety of upgrades and the synthesis of Polymerization Preparation.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "main_04-05",
+                            "occPer": "SOMETIMES"
+                        }, {
+                            "stageId": "main_05-08",
+                            "occPer": "SOMETIMES"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "24"
+                        }]
+                }, {
+                    "itemId": "30061",
+                    "name": "Damaged Device",
+                    "description": "A broken device that was embedded in the enemy's weapons and armor. It got damaged during a fierce fight, but the components inside are still valuable.",
+                    "rarity": 0,
+                    "iconId": "MTL_SL_BOSS1",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100019,
+                    "usage": "A damaged mechanical device captured from Reunion. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act16d5_01",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act11d0_01",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act9d0_02",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act12d0_02",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act13d0_01",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act13d5_02",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "act15d0_01",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act15d5_01",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act7d5_01",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "a001_02",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act17d0_01",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act18d0_02",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act18d0_01",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act18d3_02",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act18d3_01",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act7mini_01",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act17d0_02",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_02-03",
+                            "occPer": "ALWAYS"
+                        }, {
+                            "stageId": "main_01-05",
+                            "occPer": "USUAL"
+                        }],
+                    "buildingProductList": []
+                }, {
+                    "itemId": "30062",
+                    "name": "Device",
+                    "description": "A set of devices that are relatively complete with numerous valuable components. To make it portable and practical, almost every bit of space around the motherboard is in use.",
+                    "rarity": 1,
+                    "iconId": "MTL_SL_BOSS2",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100018,
+                    "usage": "An ordinary mechanical device captured from Reunion. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act16d5_05",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act9d0_05",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act12d0_05",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act13d0_05",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act13d5_04",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act15d0_05",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act15d5_05",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act11d0_05",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act6d5_05",
+                            "occPer": "ALMOST"
+                        }, {
+                            "stageId": "act18d0_05",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act7mini_03",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act17d0_06",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_08-09",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_06-10",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_01-12",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "sub_05-3-1",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "sub_03-2-2",
+                            "occPer": "ALMOST"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "19"
+                        }]
+                }, {
+                    "itemId": "30063",
+                    "name": "Integrated Device",
+                    "description": "A set of brand new devices. By reproducing the structure of devices of the same type, the lack of space around the motherboard has been solved. The energy consumption, of course, has also become higher.",
+                    "rarity": 2,
+                    "iconId": "MTL_SL_BOSS3",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100017,
+                    "usage": "A brand new mechanical device captured from Reunion. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act18d3_09",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_03-04",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_04-10",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_05-10",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_06-14",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_07-07",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_07-13",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_08-14",
+                            "occPer": "OFTEN"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "20"
+                        }]
+                }, {
+                    "itemId": "30064",
+                    "name": "Optimized Device",
+                    "description": "After undergoing a large number of private modifications, these devices have greatly expanded capacity, which improves performance at the cost of stability. From this, one can feel the dedication and perseverance from the makers.",
+                    "rarity": 3,
+                    "iconId": "MTL_SL_BOSS4",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100016,
+                    "usage": "An advanced mechanical device captured from Reunion. Can be used for a variety of upgrades and the synthesis of Bipolar Nanoflake.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "main_04-10",
+                            "occPer": "SOMETIMES"
+                        }, {
+                            "stageId": "main_07-07",
+                            "occPer": "SOMETIMES"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "21"
+                        }]
+                }, {
+                    "itemId": "30073",
+                    "name": "Loxic Kohl",
+                    "description": "An outstanding chemical mediator. When in use, it often changes between two forms to store and release other materials. When it becomes liquid, some of its properties are the same as those of alcohol, which often leaves our Engineer Operators tipsy.",
+                    "rarity": 2,
+                    "iconId": "MTL_SL_ALCOHOL1",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100005,
+                    "usage": "A flaky organic compound. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act15d5_06",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act13d0_06",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act9d0_07",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act7d5_05",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act6d5_07",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "a001_05",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_02-09",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_04-04",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_05-04",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_06-10",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_07-04",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_08-02",
+                            "occPer": "OFTEN"
+                        }],
+                    "buildingProductList": []
+                }, {
+                    "itemId": "30074",
+                    "name": "White Horse Kohl",
+                    "description": "A product made from Loxic Kohl after fine processing. It was named after the company that discovered its production method. Experiments show that it tends to transform to a higher structure in abnormal environments.",
+                    "rarity": 3,
+                    "iconId": "MTL_SL_ALCOHOL2",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100004,
+                    "usage": "A flaky organic compound. Can be used for a variety of upgrades and the synthesis of Bipolar Nanoflake.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "main_04-04",
+                            "occPer": "SOMETIMES"
+                        }, {
+                            "stageId": "main_07-04",
+                            "occPer": "SOMETIMES"
+                        }, {
+                            "stageId": "main_08-02",
+                            "occPer": "SOMETIMES"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "18"
+                        }]
+                }, {
+                    "itemId": "30083",
+                    "name": "Manganese Ore",
+                    "description": "A metal that is used to produce a catalyst widely used in industries. As the reprocessing is complicated, accidents caused by nonstandard techniques do happen from time to time.",
+                    "rarity": 2,
+                    "iconId": "MTL_SL_MANGANESE1",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100007,
+                    "usage": "A metal ore used for metallurgy. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act17d0_07",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act13d5_08",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_03-02",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_04-07",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_05-06",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_06-02",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_07-14",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_08-11",
+                            "occPer": "OFTEN"
+                        }],
+                    "buildingProductList": []
+                }, {
+                    "itemId": "30084",
+                    "name": "Manganese Trihydrate",
+                    "description": "A precious metal which few companies are willing to use to produce industrial catalysts. The catalyst made from it, however, has an extremely long service life. It can be used repeatedly and even stripped and recycled, but the complicated processes have forced many companies to give up.",
+                    "rarity": 3,
+                    "iconId": "MTL_SL_MANGANESE2",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100006,
+                    "usage": "A metal ore used for metallurgy. Can be used for a variety of upgrades and the synthesis of D32 Steel.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "main_04-07",
+                            "occPer": "SOMETIMES"
+                        }, {
+                            "stageId": "main_06-02",
+                            "occPer": "SOMETIMES"
+                        }, {
+                            "stageId": "main_08-11",
+                            "occPer": "SOMETIMES"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "17"
+                        }]
+                }, {
+                    "itemId": "30093",
+                    "name": "Grindstone",
+                    "description": "An important tool in component processing. It has stable properties, and will never explode, powderize, or crack.",
+                    "rarity": 2,
+                    "iconId": "MTL_SL_PG1",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100009,
+                    "usage": "A grindstone used to process weapon parts. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act17d0_08",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act11d0_08",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act6d5_08",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "a001_06",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_03-03",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_04-08",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_05-07",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_06-12",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_07-15",
+                            "occPer": "OFTEN"
+                        }],
+                    "buildingProductList": []
+                }, {
+                    "itemId": "30094",
+                    "name": "Grindstone Pentahydrate",
+                    "description": "Compared to normal Grindstone, this tool has an even more stable structure. It is highly non-reactive.",
+                    "rarity": 3,
+                    "iconId": "MTL_SL_PG2",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100008,
+                    "usage": "An advanced grindstone used in the finish machining of weapon parts. Can be used for a variety of upgrades and the synthesis of D32 Steel.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "main_04-08",
+                            "occPer": "SOMETIMES"
+                        }, {
+                            "stageId": "main_07-15",
+                            "occPer": "SOMETIMES"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "16"
+                        }]
+                }, {
+                    "itemId": "30103",
+                    "name": "RMA70-12",
+                    "description": "A mineral whose natural form is a complicated polyhedron. Its value for Originium Arts was known long before its industrial value.",
+                    "rarity": 2,
+                    "iconId": "MTL_SL_RMA7012",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100011,
+                    "usage": "A sensitive mineral with high conductivity. Can be used for a variety of upgrades and for production in the Factory.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act7mini_05",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act18d0_08",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act15d5_08",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "act12d0_08",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_02-10",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_04-09",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_05-09",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_06-13",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_07-08",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_08-10",
+                            "occPer": "OFTEN"
+                        }],
+                    "buildingProductList": []
+                }, {
+                    "itemId": "30104",
+                    "name": "RMA70-24",
+                    "description": "A mineral whose natural form is a complicated polyhedron. Found in 1024, it shows great industrial value that other minerals used for Originium Arts lack.",
+                    "rarity": 3,
+                    "iconId": "MTL_SL_RMA7024",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100010,
+                    "usage": "A highly sensitive mineral with outstanding conductivity. Can be used for a variety of upgrades and the synthesis of D32 Steel.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "main_04-09",
+                            "occPer": "SOMETIMES"
+                        }, {
+                            "stageId": "main_06-13",
+                            "occPer": "SOMETIMES"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "15"
+                        }]
+                }, {
+                    "itemId": "30115",
+                    "name": "Polymerization Preparation",
+                    "description": "A material commonly used as an isolation coating for delicate equipment. Its bonding effect is strong enough to interrupt the volatilization of Originium.",
+                    "rarity": 4,
+                    "iconId": "MTL_SL_PP",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100003,
+                    "usage": "A complicated liquid industrial product. Can be used for high level upgrades.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "14"
+                        }]
+                }, {
+                    "itemId": "30125",
+                    "name": "Bipolar Nanoflake",
+                    "description": "A device that is sensitive to Originium within a certain range. It can significantly improve the sensitive of nearby weapons and equipment to Originium, making them near vessels for Originium Arts.",
+                    "rarity": 4,
+                    "iconId": "MTL_SL_BN",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100002,
+                    "usage": "The brainchild of modern science and industry. Can be used for high level upgrades.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "13"
+                        }]
+                }, {
+                    "itemId": "30135",
+                    "name": "D32 Steel",
+                    "description": "This material can deliver Originium Arts smoothly and its amazing hardness makes it impossible to penetrate. It will set a new standard for weapon materials.",
+                    "rarity": 4,
+                    "iconId": "MTL_SL_DS",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100001,
+                    "usage": "An artificial metal that doesn't exist in nature. Can be used for high level upgrades.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "12"
+                        }]
+                }, {
+                    "itemId": "30145",
+                    "name": "Crystalline Electronic Unit",
+                    "description": "A crystallization of Terra's Originium technology. A symbol of Terra's industrial modernization. From Originium Casting units to intercity network servers, their making all starts with inventions like these.",
+                    "rarity": 4,
+                    "iconId": "MTL_SL_OEU",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100040,
+                    "usage": "An expensive Originium industry product. Can be used for major upgrades.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "57"
+                        }]
+                }, {
+                    "itemId": "31013",
+                    "name": "Coagulating Gel",
+                    "description": "An artificial material serendipitously born in the laboratory. It has excellent resistance to extreme temperatures, is lightweight, and is easy to process, making it ideal for use in high-tech projects.",
+                    "rarity": 2,
+                    "iconId": "MTL_SL_PGEL3",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100037,
+                    "usage": "A high-strength plastic material suitable. Can be used for a variety of upgrades and for synthesis projects in Factories.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act13d5_06",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act10d5_07",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_07-06",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_08-08",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_08-16",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "sub_04-4-1",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "sub_05-4-1",
+                            "occPer": "OFTEN"
+                        }],
+                    "buildingProductList": []
+                }, {
+                    "itemId": "31014",
+                    "name": "Polymerized Gel",
+                    "description": "An artificial material created from a large number of experiments using coagulating gel as a base material. It can maintain its stability even in high-pressure environments, playing a key role in some high-tech projects.",
+                    "rarity": 3,
+                    "iconId": "MTL_SL_PGEL4",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100036,
+                    "usage": "An extremely high-strength plastic material. Can be used for a variety of upgrades.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "main_07-06",
+                            "occPer": "SOMETIMES"
+                        }, {
+                            "stageId": "main_08-16",
+                            "occPer": "SOMETIMES"
+                        }, {
+                            "stageId": "sub_05-4-1",
+                            "occPer": "SOMETIMES"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "56"
+                        }]
+                }, {
+                    "itemId": "31023",
+                    "name": "Incandescent Alloy",
+                    "description": "An alloy smelted from several rare Terran metals. Used to manufacture rare electronic components and circuit boards, it has become an indispensable material in the cutting-edge electronics industry.",
+                    "rarity": 2,
+                    "iconId": "MTL_SL_IAM3",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100039,
+                    "usage": "A special alloy with a high melting point, commonly used in the electronics industry. Can be used for a variety of upgrades and for synthesis projects in Factories.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act16d5_08",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act11d0_06",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "act7d5_06",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_06-11",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "main_08-07",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "sub_03-3-1",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "sub_05-4-2",
+                            "occPer": "OFTEN"
+                        }],
+                    "buildingProductList": []
+                }, {
+                    "itemId": "31024",
+                    "name": "Incandescent Alloy Block",
+                    "description": "A product derived from further processing of incandescent alloy. After complicated industrial processing, the stability of its solid-liquid hybridization state at certain temperatures has been preserved. As a result, it has an irreplaceable role in product development in the cutting-edge electronics industry.",
+                    "rarity": 3,
+                    "iconId": "MTL_SL_IAM4",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100038,
+                    "usage": "A rarely-produced alloy with a high melting point, commonly used in the electronics industry. Can be used for a variety of upgrades.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "main_06-11",
+                            "occPer": "SOMETIMES"
+                        }, {
+                            "stageId": "main_08-07",
+                            "occPer": "SOMETIMES"
+                        }, {
+                            "stageId": "sub_05-4-2",
+                            "occPer": "SOMETIMES"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "55"
+                        }]
+                }, {
+                    "itemId": "31033",
+                    "name": "Crystalline Component",
+                    "description": "A raw industrial material made with the outer shell of an Originium crystal. A fundamental product in the modern Originium electronics industry.",
+                    "rarity": 2,
+                    "iconId": "MTL_SL_OC3",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100042,
+                    "usage": "An important Originium industry material. Can be used for a variety of upgrades. Can be manufactured and assembled into more advanced Originium electric components.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "act18d3_08",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "main_08-13",
+                            "occPer": "USUAL"
+                        }, {
+                            "stageId": "sub_03-3-2",
+                            "occPer": "OFTEN"
+                        }, {
+                            "stageId": "sub_05-4-3",
+                            "occPer": "OFTEN"
+                        }],
+                    "buildingProductList": []
+                }, {
+                    "itemId": "31034",
+                    "name": "Crystalline Circuit",
+                    "description": "A core product in the modern Originium electronics industry. Found inside electronic goods far and wide throughout Terra's nations. The mass application of crystalline circuitry is one more reminder of Terra's industrial modernization.",
+                    "rarity": 3,
+                    "iconId": "MTL_SL_OC4",
+                    "overrideBkg": null,
+                    "stackIconId": null,
+                    "sortId": 100041,
+                    "usage": "An important Originium industry material. Can be used for a variety of upgrades. A fundamental part of manufacturing Originium crystal assemblies.",
+                    "obtainApproach": null,
+                    "classifyType": "MATERIAL",
+                    "itemType": "MATERIAL",
+                    "stageDropList": [{
+                            "stageId": "main_08-13",
+                            "occPer": "SOMETIMES"
+                        }, {
+                            "stageId": "sub_05-4-3",
+                            "occPer": "SOMETIMES"
+                        }],
+                    "buildingProductList": [{
+                            "roomType": "WORKSHOP",
+                            "formulaId": "58"
+                        }]
+                }]
+}

@@ -1,0 +1,180 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 22 Feb 2022, 11:17:41
+    Author     : meabh
+*/
+
+/*
+Colours
+    Tiber #082C37
+    Mystic #D8E5E7
+    Blue Chill #0D7AA3
+    Eastern Blue #28A6B8
+*/
+
+@font-face {
+    font-family: 'Butler Stencil';
+    src: url('ButlerStencil-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@media screen AND (max-width: 768px){
+    nav{
+        width: 300px;
+    }
+}
+
+@media screen AND (min-width: 769px) AND (max-width: 1200px){
+    nav{
+        width: 400px;
+    }
+}
+
+@media screen AND (min-width: 1201px){
+    nav{
+        width: 600px;
+    }
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #082C37;
+    color: #D8E5E7;
+    font-family: 'Roboto', sans-serif;
+    color: #D8E5E7;
+}
+
+#container{
+    max-width: 100vw;
+    height: 100vmin;
+    display: grid;
+    grid-template-columns: 1fr 48fr 1fr;
+    grid-template-rows: 5fr 44fr 3fr;
+    grid-template-areas:    "header header  header"
+                            ".      main    ."
+                            "footer footer  footer";
+}
+
+header{
+    grid-area: header;
+    background-color: #082C37;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Butler Stencil', serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 300%;
+    width: 500px;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 0;
+}
+
+#menu li{
+    list-style: none;
+}
+
+#search, #add, #del{
+    max-height: 0;
+    max-width: 0;
+    transition: max-height, 0.5s;
+    transition: max-width, 0.25s;
+    overflow: hidden;
+}
+
+fieldset{
+    border: none;
+}
+
+#search-fs{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    background-color: #28A6B8;
+    border: none;
+    border-radius: 5px;
+    color: #D8E5E7;
+}
+
+main{
+    grid-area: main;
+}
+
+#display-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #0D7AA3;
+    margin: 10px 5px 10px 5px;
+    border-radius: 15px;
+}
+
+.item-name{
+    font-weight: 600;
+    font-size: 125%;
+    padding: 5px 0px 0px 10px;
+}
+
+.item-img-container{
+    height: 150px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item-img-tier{
+    position: absolute;
+    vertical-align: middle;
+}
+
+.item-img{
+    position: relative;
+    vertical-align: middle;
+}
+
+.stage-table-heading{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+}
+
+.stage-row{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 0px 5px 0px;
+}
+
+footer{
+    grid-area: footer;
+    font-family: 'Butler Stencil', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
